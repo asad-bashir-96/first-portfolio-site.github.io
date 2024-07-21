@@ -1,0 +1,59 @@
+:root {
+  /*Light Mode Colors*/
+  --background: #ffffff;
+  --text-primary: #0a0a0a;
+  --text-muted: #737373;
+  --border: #e5e5e5;
+  --secondary: #f5f5f5;
+  --text-secondary: #171717;
+  --primary: #dc2626;
+
+  /*Font Size Scale*/
+  --fs-xs: 0.79rem;
+  --fs-sm: 0.889rem;
+  --line-height-sm: 1.45;
+  --fs-base: 1rem;
+  --fs-p: 1.125rem;
+  --fs-h6: 1.2rem;
+  --fs-h5: 1.44rem;
+  --fs-h4: 1.728rem;
+  --fs-h3: 2.074rem;
+  --fs-h2: 2.488rem;
+  --fs-h1: 2.986rem;
+
+  /*Font Weight Scale*/
+  --fw-thin: 200;
+  --fw-base: 400;
+  --fw-bold: 800;
+
+  /*Spacing Scale*/
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-base: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 7rem;
+
+  /*Shadow Scale*/
+  --shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  /*Transition Scale*/
+  --transition-base: all 150ms ease-in-out;
+
+  /*Radius Scale*/
+  --radius-base: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /*Dark Mode Colors*/
+    --background: #0a0a0a;
+    --text-primary: #fafafa;
+    --text-muted: #a3a3a3;
+    --border: #262626;
+    --secondary: #262626;
+    --text-secondary: #fafafa;
+  }
+}
